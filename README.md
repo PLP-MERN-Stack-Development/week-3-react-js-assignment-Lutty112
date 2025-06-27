@@ -45,8 +45,8 @@ src/
 ### 1. Clone the Repository
 
 ```bash
-git clone https://github.com/your-username/task-api-app.git
-cd task-api-app
+git clone (https://github.com/PLP-MERN-Stack-Development/week-3-react-js-assignment-Lutty112.git)
+cd week-3-react-js-assignment-Lutty112
 
 ### 2. Install Dependencies
 
