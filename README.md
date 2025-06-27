@@ -1,71 +1,90 @@
-[![Open in Visual Studio Code](https://classroom.github.com/assets/open-in-vscode-2e0aaae1b6195c2367325f4f02e2d04e9abb55f0b24a779b69b11b9e10269abc.svg)](https://classroom.github.com/online_ide?assignment_repo_id=19855635&assignment_repo_type=AssignmentRepo)
-# React.js and Tailwind CSS Assignment
+# 🧠 Task & API Manager App
 
-This assignment focuses on building a responsive React application using JSX and Tailwind CSS, implementing component architecture, state management, hooks, and API integration.
+A modern, responsive React application built with Vite, Tailwind CSS, and ShadCN UI components. It allows users to manage tasks locally and view external API data with filtering and search functionality.
 
-## Assignment Overview
+---
 
-You will:
-1. Set up a React project with Vite and Tailwind CSS
-2. Create reusable UI components
-3. Implement state management using React hooks
-4. Integrate with external APIs
-5. Style your application using Tailwind CSS
+## 🚀 Features
 
-## Getting Started
+- 📝 Task Manager with Add, Delete, and Filter (All / Active / Completed)
+- 🌐 API Page that fetches and displays posts with a live search bar
+- 🌗 Theme toggle (Light/Dark) with persistence
+- 💅 Fully styled with Tailwind CSS and ShadCN UI
+- 📱 Responsive design for mobile, tablet, and desktop
+- 🔍 Tab-based navigation (no routing)
 
-1. Accept the GitHub Classroom assignment invitation
-2. Clone your personal repository that was created by GitHub Classroom
-3. Install dependencies:
-   ```
-   npm install
-   ```
-4. Start the development server:
-   ```
-   npm run dev
-   ```
+---
 
-## Files Included
+📂 Project Structure
+bash
 
-- `Week3-Assignment.md`: Detailed assignment instructions
-- Starter files for your React application:
-  - Basic project structure
-  - Pre-configured Tailwind CSS
-  - Sample component templates
-
-## Requirements
-
-- Node.js (v18 or higher)
-- npm or yarn
-- Modern web browser
-- Code editor (VS Code recommended)
-
-## Project Structure
-
-```
 src/
-├── components/       # Reusable UI components
-├── pages/           # Page components
-├── hooks/           # Custom React hooks
-├── context/         # React context providers
-├── api/             # API integration functions
-├── utils/           # Utility functions
-└── App.jsx          # Main application component
-```
+├── api/               # API integration (fetchPosts.js)
+├── components/
+│   ├── TaskManager.jsx
+│   ├── ui/            # ShadCN UI components
+│   └── Layout.jsx
+├── context/           # Theme Context
+├── pages/             # API Page
+├── App.jsx            # Main App
+└── main.jsx
+---
 
-## Submission
+## 🖼️ Screenshots
 
-Your work will be automatically submitted when you push to your GitHub Classroom repository. Make sure to:
+### ✅ Task Manager Tab  
+![Task Manager](<Tab1.png>)
 
-1. Complete all required components and features
-2. Implement proper state management with hooks
-3. Integrate with at least one external API
-4. Style your application with Tailwind CSS
-5. Deploy your application and add the URL to your README.md
+### ✅ API Page Tab  
+![API Page](<Tab2.png>)
 
-## Resources
+---
 
-- [React Documentation](https://react.dev/)
-- [Tailwind CSS Documentation](https://tailwindcss.com/docs)
-- [Vite Documentation](https://vitejs.dev/guide/)
-- [React Router Documentation](https://reactrouter.com/) 
+## ⚙️ Setup Instructions
+
+### 1. Clone the Repository
+
+```bash
+git clone https://github.com/your-username/task-api-app.git
+cd task-api-app
+
+### 2. Install Dependencies
+
+```bash
+pnpm install
+
+### 3. Start the Development Server
+
+```bash
+npm run dev
+
+Then open: http://localhost:5173
+
+---
+
+🌍 Deployment
+The app is deployed and publicly available at:
+
+🔗 Live URL: https://your-deployment-url.vercel.app
+
+▶️ It was deployed using:
+
+GitHub Pages (Requires custom Vite config)
+
+---
+
+📦 Tech Stack
+React + Vite
+
+Tailwind CSS
+
+ShadCN UI
+
+Context API + Hooks
+
+Vercel (Deployment)
+ 
+
+
+👩‍💻 Author
+Lutfia Mosi — GitHub 
